@@ -79,3 +79,16 @@
 .footer_title {
     margin-right: auto;
 }
+
+.main__image{
+	width: auto;
+	height: 50%;
+    margin: auto;
+
+}
+
+.main__map-img{
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
