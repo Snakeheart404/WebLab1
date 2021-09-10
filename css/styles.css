@@ -21,6 +21,10 @@
 	grid-area: 1 / 1 / 1 / 4;
 }
 
+.header_title{
+    margin-right: auto;
+}
+
 .left-sider {
 	display: flex;
     justify-content: space-between;
@@ -68,4 +72,8 @@
     align-items: center;
 	background: #7c9461;
 	grid-area: 5 / 1 / 5 / 4;
+}
+
+.footer_title {
+    margin-right: auto;
 }
