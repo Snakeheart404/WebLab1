@@ -37,6 +37,8 @@
 .navigation {
 	display: flex;
     justify-content: space-between;
+	padding-right: 20px;
+	padding-left: 20px;
     align-items: center;
 	background: #a6b59e;
 	grid-area: 2 / 2 / 2 / 4;
