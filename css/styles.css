@@ -2,14 +2,16 @@
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 25% 10% 35% 5% 25%;
+    height: 100vh;
+    width: 100vw
 }
 
 .header,
-.left-sider,
+.left-aside,
 .navigation,
 .main,
-.bottom-sider,
-.right-sider,
+.bottom-aside,
+.right-aside,
 .footer {
     padding: 10px;
 }
@@ -26,7 +28,7 @@
     margin-right: auto;
 }
 
-.left-sider {
+.left-aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +54,7 @@
     grid-area: 3 / 2 / 3 / 2;
 }
 
-.bottom-sider {
+.bottom-aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +62,7 @@
     grid-area: 4 / 2 / 4 / 2;
 }
 
-.right-sider {
+.right-aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,8 +84,8 @@
 
 .main__image {
     width: auto;
-    height: 50%;
-    margin: auto;
+    height: 70%;
+    margin: auto
 }
 
 .main__map-img {
