@@ -1,9 +1,9 @@
 .container {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 25% 10% 35% 5% 25%;
+    grid-template-rows: minmax(min-content, 25%) minmax(min-content, 10%) minmax(min-content, 35%) minmax(min-content, 5%) minmax(min-content, 25%);
     height: 100vh;
-    width: 100vw
+    width: 100vw;
 }
 
 .header,
@@ -85,7 +85,7 @@
 .main__image {
     width: auto;
     height: 70%;
-    margin: auto
+    margin: auto;
 }
 
 .main__map-img {
