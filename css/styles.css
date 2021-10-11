@@ -3,10 +3,9 @@
     --green-main: #cdcd8e;
     --green-line: #a6b59e;
     --green-hf: #7c9461;
-
 }
 
-.container {
+body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows:
@@ -18,39 +17,31 @@
     height: 100vh;
 }
 
-.header,
-.left-aside,
-.navigation,
-.main,
-.bottom-aside,
-.right-aside,
-.footer {
-    padding: 10px 10px 10px 10px;
-}
-
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--green-hf);
     grid-area: 1 / 1 / 1 / 4;
     box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
 }
 
-.header_title {
+header h1 {
     margin-right: auto;
 }
 
-.left-aside {
+.left {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--green-side);
     grid-area: 2 / 1 / 5 / 1;
     box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
 }
 
-.navigation {
+nav {
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
@@ -61,53 +52,57 @@
     box-sizing: border-box;
 }
 
-.main {
+main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--green-main);
     grid-area: 3 / 2 / 3 / 2;
     box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
 }
 
-.bottom-aside {
+.bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--green-line);
     grid-area: 4 / 2 / 4 / 2;
     box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
 }
 
-.right-aside {
+.right {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--green-side);
     grid-area: 3 / 3 / 5 / 3;
     box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--green-hf);
     grid-area: 5 / 1 / 5 / 4;
     box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
 }
 
-.footer_title {
+footer h1{
     margin-right: auto;
 }
 
-.main__image {
+.main-image {
     width: auto;
     height: 70%;
     margin: auto;
 }
 
-.main__map-img {
+.main-map {
     margin: auto;
     width: 70%;
     height: auto;
