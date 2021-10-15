@@ -2,7 +2,7 @@ name: Node.js CI
 
 on:
     push:
-        branches: [development]
+        branches: [dev]
 
 jobs:
     lint:
@@ -14,6 +14,7 @@ jobs:
               uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
+                  cache: 'npm'
             - name: Installing dependencies
               run: npm install
             - name: Running Eslint
@@ -21,4 +22,4 @@ jobs:
             - name: Running CSS lint
               run: npm run stylelint
             - name: Running Prettier
-              run: npm run format
+              run: npm run prettier
