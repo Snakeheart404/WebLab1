@@ -15,9 +15,7 @@
     "scripts": {
         "prepare": "husky install",
         "jslint": "eslint \"**/*.js\" --ignore-path .gitignore",
-		
-		
-          "jslint:fix": "eslint --fix \"js/**/*.js\" --ignore-path .gitignore",
+        "jslint:fix": "eslint --fix \"js/**/*.js\" --ignore-path .gitignore",
         "format": "prettier --check . --ignore-path .gitignore",
         "format:fix": "prettier --write . --ignore-path .gitignore",
         "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
