@@ -69,9 +69,8 @@ main {
     background: var(--green-line);
     grid-area: 4 / 2 / 4 / 2;
     box-sizing: border-box;
-      padding: 10px 10px 10px 10px;
-} 
-
+    padding: 10px 10px 10px 10px;
+}
 
 .right {
     display: flex;
