@@ -21,4 +21,4 @@ jobs:
             - name: Running CSS lint
               run: npm run stylelint
             - name: Running Prettier
-              run: npm run format:fix
+              run: npm run format
